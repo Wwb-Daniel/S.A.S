@@ -1,6 +1,4 @@
 {
-  "buildCommand": "bash scripts/build.sh",
-  "installCommand": "echo 'Preparing build'",
   "outputDirectory": "build/web",
   "framework": "other"
 }
