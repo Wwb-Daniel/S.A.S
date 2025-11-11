@@ -43,3 +43,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Vercel and web build optimization
+.vercel/
+.next/
+out/
+.cache/
+node_modules/
+
+# Large build artifacts
+*.tar.gz
+*.zip
+.git/objects/pack/
+
+# Temporary build files
+.dart_tool/
+.pub-cache/
+pubspec.lock
